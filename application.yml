@@ -4,7 +4,7 @@ spring:
 
 ---
 spring:
-  profiles: dev   #研发环境   我是云端服务 aa
+  profiles: dev   #研发环境   我是云端服务
   application:
    name: springcloud-dev
 
