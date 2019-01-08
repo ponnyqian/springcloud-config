@@ -1,0 +1,15 @@
+spring:
+	profiles:
+		active: dev
+
+---
+spring:
+	profiles: dev		#研发环境
+	application:
+		name: springcloud-dev
+
+---
+spring:
+	profiles: prod		#生产环境
+	application:
+		name: springcloud-prod
