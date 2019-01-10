@@ -1,0 +1,28 @@
+spring:
+  profiles:
+    active:
+    - dev
+
+---
+server:
+  port: 9081
+
+spring:
+  profiles: dev
+  application:
+    name: springcloud-client-9081
+user:
+  id: 100
+  name: 客户端测试9081
+
+---
+server:
+  port: 9082
+
+spring:
+  profiles: prod
+  application:
+    name: springcloud-client-9082
+user:
+  id: 200
+  name: 客户端测试9082
